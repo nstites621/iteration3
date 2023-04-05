@@ -10,13 +10,16 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2023_04_02_110321) do
+ActiveRecord::Schema.define(version: 2023_04_05_194648) do
 
-  create_table "projects", force: :cascade do |t|
-    t.string "title"
+  create_table "meals", force: :cascade do |t|
+    t.string "meal"
     t.text "description"
-    t.date "date"
-    t.integer "rating"
+    t.integer "calories"
+    t.integer "fats"
+    t.integer "protein"
+    t.integer "carbs"
+    t.date "consumed"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end

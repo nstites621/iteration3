@@ -1,0 +1,19 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  meal: MyString
+  description: MyText
+  calories: 1
+  fats: 1
+  protein: 1
+  carbs: 1
+  consumed: 2023-04-05
+
+two:
+  meal: MyString
+  description: MyText
+  calories: 1
+  fats: 1
+  protein: 1
+  carbs: 1
+  consumed: 2023-04-05
