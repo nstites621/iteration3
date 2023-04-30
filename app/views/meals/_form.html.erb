@@ -13,40 +13,40 @@
 
   <div class="field">
     <%= form.label :meal %>
-    <%= form.text_field :meal %>
+    <%= form.text_field :meal, class: "form-control" %>
   </div>
 
   <div class="field">
     <%= form.label :description %>
-    <%= form.text_area :description %>
+    <%= form.text_area :description, class: "form-control" %>
   </div>
 
   <div class="field">
     <%= form.label :calories %>
-    <%= form.number_field :calories %>
+    <%= form.number_field :calories, class: "form-control" %>
   </div>
 
   <div class="field">
     <%= form.label :fats %>
-    <%= form.number_field :fats %>
+    <%= form.number_field :fats, class: "form-control" %>
   </div>
 
   <div class="field">
     <%= form.label :protein %>
-    <%= form.number_field :protein %>
+    <%= form.number_field :protein, class: "form-control" %>
   </div>
 
   <div class="field">
     <%= form.label :carbs %>
-    <%= form.number_field :carbs %>
+    <%= form.number_field :carbs, class: "form-control" %>
   </div>
 
   <div class="field">
     <%= form.label :consumed %>
-    <%= form.date_select :consumed %>
+    <%= form.date_select :consumed, class: "form-control" %>
   </div>
 
   <div class="actions">
-    <%= form.submit %>
+    <%= form.submit class: "btn btn-success" %>
   </div>
 <% end %>

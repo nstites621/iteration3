@@ -1,6 +1,8 @@
 <p id="notice"><%= notice %></p>
-
-<h1>Meals</h1>
+<div class="title-container">
+  <h1>Meals</h1>
+  <%= link_to 'New Meal', new_meal_path, class: "btn btn-primary" %>
+</div>
 
 <table>
   <thead>
@@ -27,15 +29,13 @@
         <td><%= meal.carbs %></td>
         <td><%= meal.consumed %></td>
         <% if user_signed_in? %>
-        <td><%= link_to 'Show', meal %></td>
-        <td><%= link_to 'Edit', edit_meal_path(meal) %></td>
-        <td><%= link_to 'Destroy', meal, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <td><%= link_to 'Show', meal, class: "btn btn-secondary" %></td>
+        <td><%= link_to 'Edit', edit_meal_path(meal), class: "btn btn-secondary" %></td>
+        <td><%= link_to 'Destroy', meal, class: "btn btn-secondary", method: :delete, data: { confirm: 'Are you sure?' } %></td>
         <% end %>  
       </tr>
     <% end %>
   </tbody>
 </table>
 
-<br>
 
-<%= link_to 'New Meal', new_meal_path %>
