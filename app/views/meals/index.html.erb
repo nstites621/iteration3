@@ -26,9 +26,11 @@
         <td><%= meal.protein %></td>
         <td><%= meal.carbs %></td>
         <td><%= meal.consumed %></td>
+        <% if user_signed_in? %>
         <td><%= link_to 'Show', meal %></td>
         <td><%= link_to 'Edit', edit_meal_path(meal) %></td>
         <td><%= link_to 'Destroy', meal, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <% end %>  
       </tr>
     <% end %>
   </tbody>

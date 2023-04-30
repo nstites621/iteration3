@@ -5,19 +5,11 @@
         "lines": [
           1,
           1,
-          null,
-          null,
-          1,
-          0,
-          null,
-          null,
-          null,
           1,
           null,
           null,
-          null,
           1,
-          0,
+          5,
           null,
           null,
           null,
@@ -26,15 +18,37 @@
           null,
           null,
           1,
-          0,
+          4,
           null,
-          0,
-          0,
-          0,
-          0,
           null,
-          0,
-          0,
+          null,
+          1,
+          null,
+          null,
+          null,
+          1,
+          4,
+          null,
+          4,
+          4,
+          4,
+          2,
+          null,
+          4,
+          2,
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          4,
+          4,
+          4,
+          2,
+          null,
+          4,
+          2,
           null,
           null,
           null,
@@ -42,19 +56,6 @@
           null,
           1,
           0,
-          0,
-          0,
-          0,
-          null,
-          0,
-          0,
-          null,
-          null,
-          null,
-          null,
-          null,
-          1,
-          0,
           null,
           0,
           0,
@@ -65,18 +66,25 @@
           1,
           null,
           1,
-          0,
+          13,
           null,
           null,
           null,
           1,
-          0,
+          8,
           null,
           null
         ]
       },
       "/root/iteration2/app/controllers/application_controller.rb": {
         "lines": [
+          1,
+          null
+        ]
+      },
+      "/root/iteration2/app/models/meal.rb": {
+        "lines": [
+          1,
           1,
           null
         ]
@@ -149,8 +157,11 @@
         "branches": {
         }
       },
-      "/root/iteration2/app/models/meal.rb": {
+      "/root/iteration2/app/models/user.rb": {
         "lines": [
+          0,
+          null,
+          null,
           0,
           0,
           0
@@ -159,6 +170,6 @@
         }
       }
     },
-    "timestamp": 1682832066
+    "timestamp": 1682837036
   }
 }
