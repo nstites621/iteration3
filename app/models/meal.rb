@@ -1,3 +1,4 @@
 class Meal < ApplicationRecord
-    validates_presence_of :meal, :description
+    #Checks meal and description
+    #validates_presence_of :meal, :description
 end
